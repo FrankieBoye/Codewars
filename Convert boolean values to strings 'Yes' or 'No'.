@@ -1,0 +1,10 @@
+def bool_to_word bool
+  if bool == true
+  return "Yes"
+  end
+  
+  if bool == false
+  return "No"
+end
+
+end
