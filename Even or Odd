@@ -1,0 +1,8 @@
+def even_or_odd(number)
+number.to_i
+if number.even?
+return "Even"
+else
+return "Odd"
+end
+end
