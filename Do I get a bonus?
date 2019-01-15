@@ -1,0 +1,7 @@
+def bonus_time(salary, bonus)
+  if bonus == false
+  "$" + salary.to_s
+  else
+  "$" + (salary*10).to_s
+  end
+end
